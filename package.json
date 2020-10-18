@@ -1,7 +1,24 @@
 {
   "name": "vue3-simple-file-input",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/vue3-simple-file-input.umd.js",
+  "unpkg": "dist/vue3-simple-file-input.min.js",
+  "author": "Manuel Ojeda <manuelojedasistemas@gmail.com>",
+  "description": "A Simple File Input with Vue 3",
+  "browser": {
+    "./sfc": "src/componentes/FileInput.vue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manuelojeda/vue3-simple-file-input.git"
+  },
+  "homepage": "https://github.com/manuelojeda/vue3-simple-file-input",
+  "keywords": [
+    "javascript",
+    "vuejs",
+    "vue"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
