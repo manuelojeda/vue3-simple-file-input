@@ -1,15 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <file-input v-model="file" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FileInput from './components/FileInput'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FileInput
+  },
+  data () {
+    return {
+      file: null
+    }
   }
 }
 </script>
