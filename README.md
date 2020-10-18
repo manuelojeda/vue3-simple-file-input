@@ -1,6 +1,6 @@
 # vue3-simple-file-input
 
-Simple file input made for Vue.js, just install and add a v-model to the component. This accept a variety of files types. Be confidente to ask more file inputs at twitter to [@mrdarkjeda](https://www.twitter.com/@darkjeda)
+Simple file input made for Vue.js, just install and add a v-model to the component. This accept a variety of files types. Be confidente to ask more file inputs at twitter to [@darkjeda](https://www.twitter.com/@darkjeda)
 
 ## Installation
 
