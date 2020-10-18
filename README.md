@@ -42,7 +42,7 @@ In case the window file selection is closed, this may return NULL
 
 
 #### Optional
-This component plugin accept 6 general file types, so if you want to use one, use it like:
+This component plugin accept 6 general file types and other few more options, so if you want to use one, use it like:
 ```
 Excel files
 <file-input v-model="YourModel" is-excel>
