@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { defineComponent, ref, computed } from 'vue'
+import { defineComponent, ref, computed, onMounted } from 'vue'
 
 export default defineComponent({
   name: 'FileInput',
@@ -108,17 +108,16 @@ export default defineComponent({
           fileType: fileAux.type
         }
 
-        // console.log(response)
         context.emit('update:modelValue', response)
-        // this.$emit('input', response)
       } else {
-        // this.$emit('input', null)
         context.emit('update:modelValue', null)
         FileName.value = props.placeholderInputText
       }
     }
 
-    // console.log(context)
+    onMounted(() => {
+      FileName.value = props.placeholderInputText
+    })
 
     return {
       FileName,
