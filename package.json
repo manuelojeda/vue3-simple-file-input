@@ -1,6 +1,6 @@
 {
   "name": "vue3-simple-file-input",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "dist/vue3-simple-file-input.umd.js",
   "unpkg": "dist/vue3-simple-file-input.min.js",
