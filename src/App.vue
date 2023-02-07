@@ -2,20 +2,11 @@
   <file-input v-model="file" />
 </template>
 
-<script>
-import FileInput from './components/FileInput'
+<script setup>
+import { ref } from 'vue'
+import FileInput from './components/FileInput.vue'
 
-export default {
-  name: 'App',
-  components: {
-    FileInput
-  },
-  data () {
-    return {
-      file: null
-    }
-  }
-}
+const file = ref(null)
 </script>
 
 <style>
